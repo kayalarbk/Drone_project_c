@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcc main.c -o main.exe)",
+      "Bash(./main.exe)"
+    ]
+  }
+}
