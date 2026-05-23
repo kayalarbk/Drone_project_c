@@ -70,6 +70,9 @@ void dronekontrol(Drone *d) {
         check_altitude(d->status.altitude);
     }
     mod_guncelle(d);
+
+
+    
     printf("Drone: %s | Mod: ", d->name);
     mod_yaz(d->mod);
     printf("Roll: %.2f, Pitch: %.2f, Yaw: %.2f, Batarya: %.2f%%, Yükseklik: %.2f\n\n",
