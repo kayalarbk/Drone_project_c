@@ -38,5 +38,5 @@ void change_yaw(float *yaw, float new_yaw);
 void dronekontrol(Drone *d);
 void droneguncelle(Drone *d, float new_roll, float new_pitch, float new_yaw, float new_battery_level, float new_altitude);
 void mod_yaz(DroneMode mode);
-void mod_guncelle(DroneMode *mode);
+void mod_guncelle(Drone *d);
 #endif // DRONE_H
